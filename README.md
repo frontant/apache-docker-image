@@ -1,6 +1,6 @@
-# Setup Apache with Docker
+# Setup Apache Server with Docker
 
-Build custom apache docker image.
+Build custom apache server docker image.
 
 ```shell
 # build the docker image
