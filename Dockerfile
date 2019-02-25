@@ -20,7 +20,7 @@ ENV APACHE_LOCK_DIR /var/lock/apache2
 ENV APACHE_PID_FILE /var/run/apache2.pid
 
 # Update the default apache site with the config we created.
-ADD apache-config.conf /etc/apache2/sites-enabled/000-default.conf
+ADD apache2-config.conf /etc/apache2/sites-enabled/000-default.conf
 
 # By default start up apache in the foreground
 COPY apache2-foreground /usr/local/bin/
